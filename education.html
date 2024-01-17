@@ -2,56 +2,22 @@
 <html lang="en">
 
 <head>
+    <!-- Include your CSS file or styles for the page -->
     <link rel="stylesheet" type="text/css" href="portfolio.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
     <style>
-        #education {
-        background-color: #292b2c; /* Dark background color */
-        color: #fff; /* Light text color */
-        padding: 40px 0;
-    }
-
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 2.5em;
-        margin-bottom: 20px;
-    }
-
-    ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    li {
-        margin-bottom: 40px;
-    }
-
-    h3 {
-        font-size: 1.8em;
-        margin-bottom: 10px;
-        color: #ffc107; /* Highlight color */
-    }
-
-    p {
-        font-size: 1.2em;
-        margin-bottom: 5px;
-    }
         body {
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
-            background-color: #222; /* Light background color */
+            background-color: #222; /* Dark background color */
+            color: #fff; /* Light text color */
         }
 
         header {
-            background-image: url('code it down.png'); 
+            background-image: url('code it down.png'); /* Replace with your image */
             background-size: cover;
             background-position: center;
             color: #fff; /* Light text color */
@@ -59,71 +25,106 @@
             padding: 50px 0; /* Adjust padding as needed */
         }
 
-        header .container {
-            max-width: 700px;
+        .container {
+            max-width: 800px;
             margin: 0 auto;
+            padding: 20px;
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 3em;
+        h1, h2, h3 {
+            color: #0acef1; /* Accent color for headings */
         }
-
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.5em;
-        
-        }
-        header h3{
-            margin: 0;
-            font-size: 2em;
-            color: #0495a2;
-        }
-
         header img {
-            border-radius: 50%; /* Makeing the image round */
+            border-radius: 50%; /* Make the image round */
             margin-top: 20px;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #555; /* Dark border color */
+        }
+
+        th {
+            background-color: #333; /* Dark background color for headers */
+            color: #089ce1;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 5px 0;
+        }
+
+        /* Add more styles as needed */
+
     </style>
 </head>
 
 <body>
     <header>
-        
-        <div class="container">
-            <h1>BALKISHAN PADIHAR</h1> <img src="port.jpg" alt="Balkishan Padihar" width="150" height="100">
-            <p>SOFTWARE DEVELOPER</p>
-        </div>
+        <h1>BALKISHAN PADIHAR</h1> <img src="port.jpg" alt="Balkishan Padihar" width="150" height="100">
+        <p>SOFTWARE DEVELOPER</p>
     </header>
 
     <section id="education">
         <div class="container">
             <h2>Education</h2>
-            <ul>
-                <li>
-                    <h3>Bachelor's of Technology (Electrical & Electronics Engineering)</h3>
-                    <p>Veer Surendra Sai University of Technology, Burla, Odisha </p>
-                    <p> 7.19 CGPA </p>
-                    <p> 2022-2026</p>
-                    <h3>Intermediate Science</h3>
-                    <p>AIMS Higher Secondary School of Science,Pardhiapali,Sambalpur, Odisha </p>
-                    <p> 80.00% </p>
-                    <p> 2019-2021</p>
-                    <h3>Matriculation</h3>
-                    <p>Saraswati Shishu Vidya Mandir, Bheden,Bargarh, Odisha </p>
-                    <p>74.00%</p>
-                </li>
-            </ul>
+            <table>
+                <tr>
+                    <th>Program</th>
+                    <th>Institution</th>
+                    <th>Result</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>B.Tech (EEE)</td>
+                    <td>Veer Surendra Sai University of Technology, Burla, Odisha</td>
+                    <td>7.19 CGPA</td>
+                    <td>2022-2026</td>
+                </tr>
+                <tr>
+                    <td>B.Sc (IST)</td>
+                    <td>Gangadhar Meher University, Sambalpur, Odisha</td>
+                    <td>8.48 CGPA</td>
+                    <td>2021 (Drop out)</td>
+                </tr>
+                <tr>
+                    <td>Intermediate Science</td>
+                    <td>AIMS Higher Secondary School of Science, Sambalpur, Odisha</td>
+                    <td>80.00%</td>
+                    <td>2019-2021</td>
+                </tr>
+                <tr>
+                    <td>Matriculation</td>
+                    <td>Saraswati Shishu Vidya Mandir, Bheden, Odisha</td>
+                    <td>74.00%</td>
+                    <td>2019</td>
+                </tr>
+            </table>
         </div>
     </section>
 
-   <footer>
-    <div class="container">
-        <p>Contact: balkishanpadihar@gmail.com | LinkedIn: <a href="https://www.linkedin.com/in/balkishan-padihar-bb2b34188" target="_blank">LinkedIn</a> | GitHub: <a href="https://github.com/balkishan121" target="_blank">GitHub</a></p>
-        <p>mob: +91 6370143702
-        <p>&copy; 2023 Balkishan Padihar. All rights reserved.</p>
-    </div>
-</footer>
+    <footer>
+        <div class="container">
+            <p>Contact: balkishanpadihar@gmail.com | LinkedIn: <a href="https://www.linkedin.com/in/balkishan-padihar-bb2b34188" target="_blank">LinkedIn</a> | GitHub: <a href="https://github.com/balkishan121" target="_blank">GitHub</a></p>
+            <p>mob: +91 6370143702
+            <p>&copy; 2023 Balkishan Padihar. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 
