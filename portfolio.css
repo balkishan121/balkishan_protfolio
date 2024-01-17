@@ -103,7 +103,7 @@ footer a {
 
 #menu-icon {
     position: absolute;
-    top: 20px; /* Adjust the top distance as needed */
+    top: 30px; /* Adjust the top distance as needed */
     right: 20px; /* Adjust the right distance as needed */
     cursor: pointer;
 }
